@@ -1,5 +1,13 @@
 # Teeko online
 
+Based on [original boardgame](https://en.wikipedia.org/wiki/Teeko). The game Teko was first released in 1945. Teko is played on a 4x4 grid. The name was changed to Teeko (and the board grid changed to 5x5) for the 1952 release by John Scarne Games.
+
+Each player has four pieces. Players start by alternately placing pieces on a 5x5 grid, then alternate moves (moving one piece each turn to an adjacent point on the grid). Object is to get four pieces in a row, or to form a square with your four pieces.
+
+[Source](https://boardgamegeek.com/boardgame/9138/teeko).
+
+## Setup
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
