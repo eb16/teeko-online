@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "030dcb2b4bab37a135dacf8b838d7220",
+    "revision": "ed3a76148498fb881123beac6f172d6b",
     "url": "/teeko-online/index.html"
   },
   {
-    "revision": "45fb9fc2fd25fbb46440",
-    "url": "/teeko-online/static/css/main.9bca530d.chunk.css"
+    "revision": "2fc693acee04ce4d3a22",
+    "url": "/teeko-online/static/css/main.de48c09a.chunk.css"
   },
   {
     "revision": "bccf0e67d603a98a7ed1",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/teeko-online/static/js/2.0faee036.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "45fb9fc2fd25fbb46440",
+    "revision": "2fc693acee04ce4d3a22",
     "url": "/teeko-online/static/js/main.0d14f0a4.chunk.js"
   },
   {
