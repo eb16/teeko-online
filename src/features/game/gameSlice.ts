@@ -45,6 +45,9 @@ const initialState: BoardState = {
   activeCell: undefined
 };
 
+const isValidMovement = (from: Location, to: Location) =>
+  Math.abs(from.x - to.x) <= 1 && Math.abs(from.y - to.y) <= 1;
+
 export const slice = createSlice({
   name: "game",
   initialState,
@@ -52,7 +55,11 @@ export const slice = createSlice({
     movePiece: (state, action: PayloadAction<Movement>) => {
       const { to } = action.payload;
       const { activeCell } = state;
-      if (activeCell && state.board[to.x][to.y] === Selection.NONE) {
+      if (
+        activeCell &&
+        state.board[to.x][to.y] === Selection.NONE &&
+        isValidMovement(activeCell, to)
+      ) {
         state.board[to.x][to.y] = state.board[activeCell.x][activeCell.y];
         state.board[activeCell.x][activeCell.y] = Selection.NONE;
         state.activeCell = undefined;
