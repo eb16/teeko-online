@@ -31,7 +31,8 @@ export function Game() {
                     ? "black"
                     : cell === Selection.PLAYER2
                     ? "red"
-                    : "white"
+                    : "white",
+                borderRadius: "50%"
               }}
               onClick={() => dispatch(movePiece({ to: { x, y } }))}
             />
