@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/teeko-online/static/css/main.de48c09a.chunk.css",
-    "main.js": "/teeko-online/static/js/main.3dd61287.chunk.js",
-    "main.js.map": "/teeko-online/static/js/main.3dd61287.chunk.js.map",
+    "main.js": "/teeko-online/static/js/main.1fe6f9c8.chunk.js",
+    "main.js.map": "/teeko-online/static/js/main.1fe6f9c8.chunk.js.map",
     "runtime-main.js": "/teeko-online/static/js/runtime-main.572a3361.js",
     "runtime-main.js.map": "/teeko-online/static/js/runtime-main.572a3361.js.map",
-    "static/js/2.0faee036.chunk.js": "/teeko-online/static/js/2.0faee036.chunk.js",
-    "static/js/2.0faee036.chunk.js.map": "/teeko-online/static/js/2.0faee036.chunk.js.map",
+    "static/js/2.453e3f7a.chunk.js": "/teeko-online/static/js/2.453e3f7a.chunk.js",
+    "static/js/2.453e3f7a.chunk.js.map": "/teeko-online/static/js/2.453e3f7a.chunk.js.map",
     "index.html": "/teeko-online/index.html",
-    "precache-manifest.0094a5547e1fbc7c221bd3f68a9b6fdc.js": "/teeko-online/precache-manifest.0094a5547e1fbc7c221bd3f68a9b6fdc.js",
+    "precache-manifest.a760d68f60ccd3f65ecb33888bf49545.js": "/teeko-online/precache-manifest.a760d68f60ccd3f65ecb33888bf49545.js",
     "service-worker.js": "/teeko-online/service-worker.js",
     "static/css/main.de48c09a.chunk.css.map": "/teeko-online/static/css/main.de48c09a.chunk.css.map",
-    "static/js/2.0faee036.chunk.js.LICENSE.txt": "/teeko-online/static/js/2.0faee036.chunk.js.LICENSE.txt"
+    "static/js/2.453e3f7a.chunk.js.LICENSE.txt": "/teeko-online/static/js/2.453e3f7a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.572a3361.js",
-    "static/js/2.0faee036.chunk.js",
+    "static/js/2.453e3f7a.chunk.js",
     "static/css/main.de48c09a.chunk.css",
-    "static/js/main.3dd61287.chunk.js"
+    "static/js/main.1fe6f9c8.chunk.js"
   ]
 }
