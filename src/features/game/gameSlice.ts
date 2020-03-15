@@ -7,7 +7,7 @@ export enum Selection {
   PLAYER2
 }
 
-interface Location {
+export interface Location {
   x: number;
   y: number;
 }
@@ -45,7 +45,7 @@ const initialState: BoardState = {
   activeCell: undefined
 };
 
-const isValidMovement = (from: Location, to: Location) =>
+export const isValidMovement = (from: Location, to: Location) =>
   Math.abs(from.x - to.x) <= 1 && Math.abs(from.y - to.y) <= 1;
 
 export const slice = createSlice({
@@ -55,6 +55,7 @@ export const slice = createSlice({
     movePiece: (state, action: PayloadAction<Movement>) => {
       const { to } = action.payload;
       const { activeCell } = state;
+      console.log(activeCell);
       if (
         activeCell &&
         state.board[to.x][to.y] === Selection.NONE &&
@@ -63,14 +64,15 @@ export const slice = createSlice({
         state.board[to.x][to.y] = state.board[activeCell.x][activeCell.y];
         state.board[activeCell.x][activeCell.y] = Selection.NONE;
         state.activeCell = undefined;
-      } else if (state.board[to.x][to.y] !== Selection.NONE) {
-        state.activeCell = { x: to.x, y: to.y };
       }
+    },
+    setActiveCell: (state, action: PayloadAction<Location>) => {
+      state.activeCell = action.payload;
     }
   }
 });
 
-export const { movePiece } = slice.actions;
+export const { movePiece, setActiveCell } = slice.actions;
 
 // The function below is called a selector and allows us to select a value from
 // the state. Selectors can also be defined inline where they're used instead of

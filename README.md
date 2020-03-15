@@ -6,6 +6,10 @@ Each player has four pieces. Players start by alternately placing pieces on a 5x
 
 [Source](https://boardgamegeek.com/boardgame/9138/teeko).
 
+## Play online
+
+Visit: https://eb16.github.io/teeko-online/
+
 ## Setup
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
