@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/teeko-online/static/css/main.9bca530d.chunk.css",
+    "main.js": "/teeko-online/static/js/main.0d14f0a4.chunk.js",
+    "main.js.map": "/teeko-online/static/js/main.0d14f0a4.chunk.js.map",
+    "runtime-main.js": "/teeko-online/static/js/runtime-main.572a3361.js",
+    "runtime-main.js.map": "/teeko-online/static/js/runtime-main.572a3361.js.map",
+    "static/js/2.0faee036.chunk.js": "/teeko-online/static/js/2.0faee036.chunk.js",
+    "static/js/2.0faee036.chunk.js.map": "/teeko-online/static/js/2.0faee036.chunk.js.map",
+    "index.html": "/teeko-online/index.html",
+    "precache-manifest.e8fd6621ea9b1a8c368e8f2146de51d7.js": "/teeko-online/precache-manifest.e8fd6621ea9b1a8c368e8f2146de51d7.js",
+    "service-worker.js": "/teeko-online/service-worker.js",
+    "static/css/main.9bca530d.chunk.css.map": "/teeko-online/static/css/main.9bca530d.chunk.css.map",
+    "static/js/2.0faee036.chunk.js.LICENSE.txt": "/teeko-online/static/js/2.0faee036.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.572a3361.js",
+    "static/js/2.0faee036.chunk.js",
+    "static/css/main.9bca530d.chunk.css",
+    "static/js/main.0d14f0a4.chunk.js"
+  ]
+}
