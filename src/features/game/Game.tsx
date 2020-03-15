@@ -1,7 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { selectBoard, movePiece, selectActiveCell } from "./gameSlice";
-import styles from "./Board.module.css";
+import {
+  selectBoard,
+  movePiece,
+  selectActiveCell,
+  Selection
+} from "./gameSlice";
 
 export function Game() {
   const board = useSelector(selectBoard);
@@ -21,12 +25,16 @@ export function Game() {
                   activeCell && activeCell.x === x && activeCell.y === y
                     ? "blue"
                     : "black"
-                }`
+                }`,
+                background:
+                  cell === Selection.PLAYER1
+                    ? "black"
+                    : cell === Selection.PLAYER2
+                    ? "red"
+                    : "white"
               }}
               onClick={() => dispatch(movePiece({ to: { x, y } }))}
-            >
-              {cell}
-            </button>
+            />
           ))}
         </div>
       ))}

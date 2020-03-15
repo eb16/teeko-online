@@ -1,8 +1,7 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { RootState } from "../../app/store";
-import { getRandomInt } from "../../utils/helpers";
 
-enum Selection {
+export enum Selection {
   NONE,
   PLAYER1,
   PLAYER2
